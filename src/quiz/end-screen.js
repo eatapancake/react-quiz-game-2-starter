@@ -1,4 +1,5 @@
 import "./end-screen.css";
+import ConfettiMaker from "./confetti";
 
 function EndStat({ label, value }) {
   return (
@@ -20,8 +21,9 @@ function EndStat({ label, value }) {
 function EndScreen({ score, bestScore, onRetryClick }) {
   return (
     <div className="end-screen">
+      <ConfettiMaker />
       <h1>Quiz Complete!</h1>
-      <div className="end-screen__trophy">-🎂-🎉</div>
+      <div className="end-screen__trophy">✨🎂✨.</div>
       <EndStat label="Score" value={score} />
       <EndStat label="Best Score" value={bestScore} />
       <button className="end-screen__button" onClick={onRetryClick}>
