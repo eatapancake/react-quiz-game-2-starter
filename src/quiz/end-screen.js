@@ -21,7 +21,7 @@ function EndScreen({ score, bestScore, onRetryClick }) {
   return (
     <div className="end-screen">
       <h1>Quiz Complete!</h1>
-      <div className="end-screen__trophy">🎂</div>
+      <div className="end-screen__trophy">-🎂-🎉</div>
       <EndStat label="Score" value={score} />
       <EndStat label="Best Score" value={bestScore} />
       <button className="end-screen__button" onClick={onRetryClick}>
