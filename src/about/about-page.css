@@ -1,0 +1,8 @@
+.emoji-list {
+  list-style: none;
+}
+
+.emoji-list li::before {
+  content: "🌼";
+  padding-right: 0.5rem;
+}
