@@ -1,3 +1,4 @@
+import RandomDogs from "./random-dogs";
 import Todos from "./arrays/todos";
 import ConfettiDemo from "./dependencies/confetti-demo";
 import MusicalButton from "./dependencies/musical-button";
@@ -18,6 +19,8 @@ function DemoPage() {
       <h2>Arrays</h2>
       <Todos />
 
+      <h2>Random Dog</h2>
+      <RandomDogs></RandomDogs>
       <h2>Confetti</h2>
       <ConfettiDemo></ConfettiDemo>
       <h2>Musical Button</h2>

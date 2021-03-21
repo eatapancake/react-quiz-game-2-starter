@@ -4,7 +4,7 @@ import Stats from "./stats";
 import triviaData from "./trivia-data";
 import TriviaItem from "./trivia-item";
 
-function Game() {
+function Game({ triviaData }) {
   const [gameState, setGameState] = useState({
     score: 0,
     triviaIndex: 0,
