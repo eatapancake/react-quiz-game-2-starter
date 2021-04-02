@@ -4,7 +4,7 @@ import LoadingSpinner from "../common/loading-spinner";
 
 function RandomDogs() {
   const [DogFetch2, setDogFetch2] = useState({
-    isLoading: true,
+    IsLoading: true,
     errorMessage: "",
     doge: "https://images.dog.ceo/breeds/shiba/shiba-5.jpg",
   });
